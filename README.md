@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevRoast
 
-## Getting Started
+DevRoast is a playful developer app where you paste a code snippet, get a brutal roast, and explore a leaderboard of the most questionable code on the internet.
 
-First, run the development server:
+This project is being built during the **NLW** event by **Rocketseat**, following the classes from the event and evolving step by step throughout the lessons.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What the app does
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- lets you paste code into an interactive editor
+- simulates an AI-style roast experience for submitted snippets
+- shows a shame leaderboard with memorable bad examples
+- includes a component showcase used to evolve the product UI
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Current status
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The app already has:
 
-## Learn More
+- a homepage inspired by the event design file
+- a terminal-style interactive code editor
+- a leaderboard preview section
+- a reusable UI component library and showcase page
 
-To learn more about Next.js, take a look at the following resources:
+Some parts are still static for now, but the interface and product structure are already in place.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Why this project exists
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+DevRoast is a fun way to practice product thinking, UI composition, frontend architecture, and component design while building something with personality.
 
-## Deploy on Vercel
+## Screens
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `/` - homepage and main code submission experience
+- `/components` - reusable UI showcase
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Built with
+
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+
+## Notes
+
+This repository reflects the implementation developed during the NLW classes, so the project may continue evolving as new lessons and refinements are added.
