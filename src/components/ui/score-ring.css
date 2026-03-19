@@ -1,0 +1,24 @@
+.score-ring {
+  width: var(--score-ring-size, 180px);
+  height: var(--score-ring-size, 180px);
+}
+
+.score-ring--120 {
+  --score-ring-size: 120px;
+}
+
+.score-ring--180 {
+  --score-ring-size: 180px;
+}
+
+.score-ring--critical {
+  --score-ring-value-color: var(--color-accent-red);
+}
+
+.score-ring--warning {
+  --score-ring-value-color: var(--color-accent-amber);
+}
+
+.score-ring--good {
+  --score-ring-value-color: var(--color-accent-green);
+}
